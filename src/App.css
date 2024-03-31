@@ -1,0 +1,70 @@
+/* App.css */
+
+.App {
+  text-align: center;
+}
+
+.App-content {
+  margin: 20px;
+}
+
+.EventList {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 20px;
+}
+
+.EventCard {
+  border: 1px solid #b0babf;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.EventCard img {
+  max-width: 100%;
+  height: auto;
+}
+
+button {
+  background-color: #cf2d2d;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #aa2525;
+}
+
+/* Set up global styles */
+body {
+  font-family: 'Inter', sans-serif; /* Use 'Inter' font for all text */
+  background-color: #ffffff; /* Set background color to white */
+  color: #1e2022; /* Set default font color for text */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #1e2022; /* Set font color for headings */
+}
+
+.subtitle {
+  color: #989090; /* Set font color for subtitles */
+}
+
+.logo {
+  color: #cf2d2d; /* Set logo color */
+}
+
+/* Set stroke/border color */
+.border {
+  border-color: #b0babf;
+}
